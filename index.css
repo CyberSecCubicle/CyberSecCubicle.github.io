@@ -19,7 +19,7 @@
 }
 
 .page3 {
-  background-image:url('Hackers_background.png'); 
+  background-image:url('hackers_background.png'); 
    min-height:900px;
   background-attachment: fixed;
   background-position: center;
@@ -28,7 +28,7 @@
 }
 
 .page4 {
-  background-image:url('Tips.png'); 
+  background-image:url('tips.png'); 
    min-height:800px;
   background-attachment: fixed;
   background-position: center;
