@@ -1,0 +1,165 @@
+.page1 {
+  background-image:url('homepage2.png'); 
+  min-height:800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.page2 {
+  background-image:url('Threats_background.png'); 
+   min-height:800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.page3 {
+  background-image:url('Hackers_background.png'); 
+   min-height:900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.page4 {
+  background-image:url('Tips.png'); 
+   min-height:800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.page1txt {
+  width:300px;
+  position: absolute;
+  top: 50%;
+  left:40%;
+  overflow: auto;
+  height:200px;
+  z-index: 0;
+}
+
+body {
+	background: white;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline;
+	color: white;
+	padding-right: 40px;
+	padding-left: 40px;
+	text-align: center;
+}
+
+nav ul li a {
+	color: white;
+	display: inline;
+	text-align: center;
+}
+
+
+header {
+	background: black;
+	position: sticky;
+	top:0px;
+}
+
+nav {
+	margin:0;
+	padding-top: 0;
+
+}
+
+nav a {
+	color:white;
+
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding-right: 40px;
+}
+
+.row img {
+  margin-top: 8px;
+  vertical-align: middle;
+  margin-right: 10px;
+
+}
+
+h1.welcome {
+	padding-top: 15%;
+	padding-left: 37%; 
+}
+
+h4.intro {
+	padding-left: 33%;
+}
+
+.row_title {
+  padding-right: 50px;
+  size: 60px;
+}
+
+.btn {
+  border-width: 5px;
+  border-color: white;
+}
+ a.btn:hover {
+    border-color:red;
+    background-color: #ff3333;
+}
