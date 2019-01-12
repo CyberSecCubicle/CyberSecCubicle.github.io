@@ -27,6 +27,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  padding-right:100px;
+  padding-left:100px;
+
 }
 
 .page4 {
@@ -36,6 +39,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  padding-right:100px;
+  padding-left:100px;
 }
 
 .page1txt {
@@ -48,15 +53,10 @@
   z-index: 0;
 }
 
-.box2,.box3,.box4 {
-  padding-right:30px;
-  padding-left: 30px;
-}
 
 body {
 	background: white;
 	margin: 0;
-  padding: 0px,30px,0px,30px;
 }
 
 nav ul li {
